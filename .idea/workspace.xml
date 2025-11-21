@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12ccd966-7846-4b84-9b15-a9e6ebae090b" name="Changes" comment="fix encoding">
+    <list default="true" id="12ccd966-7846-4b84-9b15-a9e6ebae090b" name="Changes" comment="done class Stakeholder(Employee, Customer, Supplier)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quan_ly_thu_vien.py" beforeDir="false" afterPath="$PROJECT_DIR$/quan_ly_thu_vien.py" afterDir="false" />
     </list>
@@ -40,6 +40,7 @@
 }</component>
   <component name="ProjectId" id="35n5hj4iIS0kbQP2mGcQ8R7F7BE" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -76,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1763733116085</updated>
       <workItem from="1763733117166" duration="718000" />
-      <workItem from="1763733919085" duration="1536000" />
+      <workItem from="1763733919085" duration="1596000" />
+      <workItem from="1763738612719" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="fix encoding">
       <option name="closed" value="true" />
@@ -86,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763734392293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done class Stakeholder(Employee, Customer, Supplier)">
+      <option name="closed" value="true" />
+      <created>1763735515587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763735515587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix encoding" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix encoding" />
+    <MESSAGE value="done class Stakeholder(Employee, Customer, Supplier)" />
+    <option name="LAST_COMMIT_MESSAGE" value="done class Stakeholder(Employee, Customer, Supplier)" />
   </component>
 </project>

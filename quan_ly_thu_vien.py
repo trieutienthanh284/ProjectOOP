@@ -84,6 +84,28 @@ class Supplier(Stakeholder):
     def get_note(self):
         return self.note
 
+class Category():
+    def __init__(self, id, name, description, products = input()):
+        self.id = id
+        self.name = name
+        self.description = description
+        self.products = products
+
+    def append_products(self):
+        pass
+
+    def remove_products(self):
+        pass
+
+    def count(self):
+        pass
+
+    def show_information(self):
+        pass
+
+class Product():
+
+
 # bên dưới là để test nhé
 nv = Employee("000", "Thành", "Hà Nội", "09999848783", "nam")
 nv.show_information()

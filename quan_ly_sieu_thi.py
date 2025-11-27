@@ -1,5 +1,6 @@
 # coding: utf-8
 from datetime import datetime
+from typing import List, Optional
 
 class Stakeholder():
     def __init__(self, id, name, address, phone_number):
@@ -220,6 +221,7 @@ class Product():
         self.stock = stock
         self.status = status
         self.supplier = supplier
+        self.category = None
 
     def show_information(self):
         print(f"ID: {self.id}")
@@ -308,18 +310,15 @@ class Account():
         else:
             print("Email không chính xác, không thể đặt lại mật khẩu.")
 
+
+
+
+
+
+
+
 # bên dưới là để test nhé
 nv = Employee("NV001", "Thành", "Hà Nội", "09999848783",'6-6-1999', "nam", "001205034918","Nhân viên bán hàng", Account)
 kh = Customer("KH001", "Thành", "HN", "0987654321", 0)
 ncc = Supplier("NCC001", "Thành", "HN", "0987654321", "Thành - 0987654321", "trieutienthanh@gmail.com", "Chưa cung cấp")
 dm = Category("DM001", "Nước tăng lực", "Uống cho khỏe", "1-1-2025", "1-1-2030")
-
-acc = Account("tienthanh", "123456", "abc@gmail.com")
-
-print(acc.login("tienthanh", "123456"))
-
-# Quên mật khẩu
-acc.forgot_password("abc@gmail.com", "newpass123")
-
-# Đăng nhập lại bằng mật khẩu mới
-print(acc.login("tienthanh", "newpass123"))
